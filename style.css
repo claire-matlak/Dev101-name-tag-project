@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
-    background: rgb(224, 234, 247);
+    background: whitesmoke;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -27,4 +27,54 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.nametag {
+    background: red;
+    padding-bottom: 10px;
+    width: 600px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 10%;
+    border: 2px solid darkslategray;
+    box-shadow: 5px 10px #888888;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.greeting {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 4em;
+    padding: 10px;
+}
+
+.introduction {
+    font-size: 2em;
+}
+
+.name {
+    background: whitesmoke;
+    color: darkslategray;
+    font-style:italic;
+    font-family: cursive;
+    font-size: 3em;
+    padding: 20px;
+}
+
+button {
+    background: royalblue;
+    color: whitesmoke;
+    border: royalblue;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+input {
+    height: 2em;
+    font-size: 0.5em;
 }
